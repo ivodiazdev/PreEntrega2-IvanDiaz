@@ -10,24 +10,27 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
     <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
     <header>
         <div class="header__div--start">
-            <span>
+        <span>
             <img src="img/logo.png" alt="Logo de Imagine World">
         </span>
         <a href="./index.html">Imagine World</a>
+        
+        </div>
+        <nav class="navbar navbar-expand-lg">
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
-        </div>
-        <nav class="navbar navbar-expand-lg">
             <div class="collapse navbar-collapse header__div--end" id="navbarSupportedContent">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                 <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
+                    <a class="nav-link active" aria-current="page" href="./index.html">Inicio</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="pages/contacto.html">Contacto</a>
@@ -46,7 +49,7 @@
         
         </nav>
 </header>
-<div class="header__antiflex"></div>
+
 <section id="slogan">
     <h1>Comienza tu carrera hoy mismo!</h1>
     <p>inscribete a Imagine Campus!</p>
@@ -61,18 +64,22 @@
 </section>
 
 <section id="descripcionesProductos">
-    <div class="div__descripciones">
+    <div class="div__descripciones animate__animated animate__fadeInDown">
         <div>
-            <img src="img/code.png" alt="icono de codigo">
+            <span class="material-symbols-outlined icon">
+                code
+                </span>
         </div>
         <div>
             <h3>Aprende a programar!</h3>
             <p>Aprende a programar con los mejores profesores a través del mundo con nuestro sistema de apredizaje virtual!</p>
         </div>
     </div>
-    <div class="div__descripciones">
+    <div class="div__descripciones animate__animated animate__fadeInDown animate__delay-1s">
         <div>
-            <img src="img/joystick.png" alt="icono de joystick">
+            <span class="material-symbols-outlined icon">
+                stadia_controller
+            </span>
         </div>
         <div>
             <h3>Crea tus propios videojuegos!</h3>
@@ -80,9 +87,11 @@
         </div>
     </div>
 
-    <div class="div__descripciones">
+    <div class="div__descripciones animate__animated animate__fadeInDown animate__delay-2s">
         <div>
-            <img src="img/escudo.png" alt="icono de escudo">
+            <span class="material-symbols-outlined icon">
+                security
+            </span>
         </div>
         <div>
             <h3> Estudia ciberseguridad!</h3>
@@ -91,19 +100,19 @@
     </div>
 </section>
 
-<section id="productos">
-        <div class="div__productos">
+<section id="productos" class="row">
+    
+        <div class="div__productos column col-lg-3">
             <div class="div__productos--container">
                 <p>Programacion fullstack</p>
-            </div>
-            <div class="div__productos--container">
+            
                 <p>200$</p>
             </div>
-            <div>
+            <div class="div__productos--ul">
                 <ul>
                     <li>300 horas de curso.</li>
                     <li>Desarrollo fullstack.</li>
-                    <li>5 lenguajes fundamentales.</li>
+                    <li>5 lenguajes fundamentales y ejercicios practicos!</li>
                 </ul>
             </div>
             <div class="div__productos--container">
@@ -111,14 +120,13 @@
             </div>
         </div>
 
-        <div class="div__productos">
+        <div class="div__productos column col-lg-3">
             <div class="div__productos--container">
                 <p>Desarrollo de videojuegos</p>
-            </div>
-            <div class="div__productos--container">
+                
                 <p>600$</p>
             </div>
-            <div>
+            <div class="div__productos--ul">
                 <ul>
                     <li>400 horas de curso.</li>
                     <li>Grandes proyectos.</li>
@@ -130,18 +138,17 @@
             </div>
         </div>
 
-        <div class="div__productos">
+        <div class="div__productos column col-lg-3">
             <div class="div__productos--container">
                 <p>Ciberseguridad</p>
-            </div>
-            <div class="div__productos--container">
+            
                 <p>400$</p>
             </div>
-            <div>
+            <div class="div__productos--ul">
                 <ul>
                     <li>300 horas de curso.</li>
                     <li>Hacking ético.</li>
-                    <li>Estudio de redes y sistemas.</li>
+                    <li>Estudio de redes y sistemas de redes.</li>
                 </ul>
             </div>
             <div class="div__productos--container">

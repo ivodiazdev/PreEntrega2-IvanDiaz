@@ -47,7 +47,7 @@ header nav li a{
 }
 
 header nav li a:hover{
-    background-color: white;
+    background-color: rgb(42, 157, 143);
     font-size: 2.5rem;
     border-radius: 10%;
     transition: 0.7s;
@@ -80,7 +80,7 @@ header span img{
 #slogan{
     text-align: center;
     font-size: 2.5rem;
-    margin: 60px 0px;
+    margin: 70px 0px;
 }
 
 #slogan blockquote {
@@ -98,14 +98,12 @@ header span img{
     font-size: 2.5rem;
     background-color: rgba(38, 70, 83, 0.9);
     width: 100%;
-    margin: 30px 0rem;
-    margin-right: 20px;
+    margin: 30px 0px;
 }
 
-#descripcionesProductos img{
-    height: 4rem;
-    padding: 3rem;
-    margin: 7rem;
+.icon{
+    font-size: 5rem;
+    margin: 20px 50px 20px 50px;
 }
 
 /*descripciones*/
@@ -114,10 +112,7 @@ header span img{
 
 #productos{
     display: flex;
-    flex-direction: row;
     justify-content: space-around;
-    margin: 2rem;
-    font-size: 2rem;
 }
 
 #productos div ul li{
@@ -131,14 +126,28 @@ header span img{
     align-items: centrar;
     width: 25%;
     list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
 }
 
 .div__productos--container{
     display: flex;
     justify-content: center;
+    flex-direction: column;
+    align-items: center;
     font-size: 2rem;
     background-color: rgb(42, 157, 143);
-    padding: 5px;
+    width: 100%;
+}
+
+.div__productos--ul{
+    height: 20rem;
+    font-size: 2rem;
+}
+
+.column{
+    padding: 0;
 }
 
 /*productos*/
