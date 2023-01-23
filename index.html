@@ -14,21 +14,36 @@
 </head>
 <body>
     <header>
-        <div>
-        <span>
-            <img src="img/logo.png" alt="Logo de empresa">
+        <div class="header__div--start">
+            <span>
+            <img src="img/logo.png" alt="Logo de Imagine World">
         </span>
-            <p>Imagine World</p>
+        <a href="./index.html">Imagine World</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
         </div>
+        <nav class="navbar navbar-expand-lg">
+            <div class="collapse navbar-collapse header__div--end" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="pages/contacto.html">Contacto</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="pages/cursos.html">Mas cursos</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="pages/empleos.html">Empleos</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="pages/mas-info.html">Mas informacion</a>
+                </li>
+                </ul>
+            </div>
         
-        <nav>
-            <ul>
-                <li><a href="index.html">Inicio</a></li>
-                <li><a href="pages/cursos.html">Mas Cursos</a></li>
-                <li><a href="pages/empleos.html">Empleos</a></li>
-                <li><a href="pages/contacto.html">Contacto</a></li>
-                <li><a href="pages/mas-info.html">Mas informacion</a></li>
-            </ul>
         </nav>
 </header>
 <div class="header__antiflex"></div>

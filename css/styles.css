@@ -24,38 +24,54 @@ li{
 header{
     height: 60px;
     width: 100%; 
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
     position: fixed;
     background-color: rgb(38, 70, 83);
     top: 0;
     z-index: 1;
-}
-
-header div{
+    font-size: 2rem;
     display: flex;
+    justify-content: space-between;
     align-items: center;
-    justify-content: center;
-    font-size: 2rem;
-    margin-left: 1rem;
+    padding: 20px;
 }
 
-header nav li{
-    display: inline;
+header nav div a{
     font-size: 2rem;
+}
+
+header nav li a{
+    display: inline;
+    font-size: 1rem;
     list-style: none;
     margin-left: 1.5rem;
+}
+
+header nav li a:hover{
+    background-color: white;
+    font-size: 2.5rem;
+    border-radius: 10%;
+    transition: 0.7s;
 }
 
 header span img{
     height: 4rem;
 }
 
-.header__antiflex{
-    height: 60px;
+.bg-body-tertiary{
     width: 100%;
     background-color: rgba(38, 70, 83, 0.9);
+}
+
+.header__div--start{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.header__div--end{
+    display: flex;
+    justify-content:flex-end;
+    align-items: center;
 }
 
 /*header*/
